@@ -13,7 +13,10 @@ The goal of this SQL-based analysis is to provide the Rockbuster Stealth managem
 
 ## Data 
 The dataset used for this analysis contains information about Rockbuster's film inventory, customers, and payments, among other variables.
-The full details of the data are available here
+A full data dictionary is available [here](docs/rockbuster-data-dictionray.pdf)
+It includes table structures, column descriptions, and data types for reference. 
+
+[Rockbuster ERD](docs/rockbuster-erd.jpg)
 
 ## Tools
 - **PostgreSQL** for querying and data analysis
