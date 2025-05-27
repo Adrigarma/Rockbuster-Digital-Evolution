@@ -1,4 +1,4 @@
-!# Rockbuster Stealth: Analysis for a Digital Evolution
+# Rockbuster Stealth: Analysis for a Digital Evolution
 In response to increasing competition from streaming giants like Netflix and Amazon Prime, the Rockbuster Stealth management team plans to leverage its existing movie licenses to launch an online video rental service and maintain its competitive edge.
 
 ## Objective
@@ -14,8 +14,6 @@ The goal of this SQL-based analysis is to provide the Rockbuster Stealth managem
 ## Data 
 The dataset used for this analysis contains information about Rockbuster's film inventory, customers, and payments, among other variables.
 A full data dictionary is available [here](docs/rockbuster-data-dictionary.pdf).
-
-![Rockbuster ERD](docs/rockbuster-erd.jpg)
 
 ## Tools
 - **PostgreSQL** for querying and data analysis
