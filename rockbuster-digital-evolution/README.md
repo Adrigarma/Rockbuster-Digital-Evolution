@@ -1,4 +1,4 @@
-# Rockbuster Stealth: Analysis for a Digital Evolution
+!# Rockbuster Stealth: Analysis for a Digital Evolution
 In response to increasing competition from streaming giants like Netflix and Amazon Prime, the Rockbuster Stealth management team plans to leverage its existing movie licenses to launch an online video rental service and maintain its competitive edge.
 
 ## Objective
@@ -13,22 +13,34 @@ The goal of this SQL-based analysis is to provide the Rockbuster Stealth managem
 
 ## Data 
 The dataset used for this analysis contains information about Rockbuster's film inventory, customers, and payments, among other variables.
-A full data dictionary is available [here](docs/rockbuster-data-dictionary.pdf)
-It includes table structures, column descriptions, and data types for reference. 
+A full data dictionary is available [here](docs/rockbuster-data-dictionary.pdf).
 
-[Rockbuster ERD](docs/rockbuster-erd.jpg)
+![Rockbuster ERD](docs/rockbuster-erd.jpg)
 
 ## Tools
 - **PostgreSQL** for querying and data analysis
 - **Tableau** for interactive dashboards and visualizations
 - **PowerPoint** for presenting insights to stakeholders 
-## Executing the code
-To replicate the analysis, connect to the Rockbuster database and run the SQL queries provided in the /sql/ folder. The queries are organized by topic and match the key questions listed above.
+
+## SQL Queries 
+This project includes multiple SQL queries organized by the type of technique used or the analytical goal. Some queries answer the same question using different approaches (CTE or subquery) to demonstrate versatility and understanding. 
+
+### Analytical Queries 
+**Top 5 paying customers (average payment):**
+- [Using CTEs](sql/cte_avg_payment_top5_customers.sql)
+- [Using Subquery](sql/subquery_avg_payment_top5_customers.sql)
+
+**Countries where top 5 customers are located:**
+- [Using CTEs](sql/cte_countries_top5_customers.sql)
+- [Using Subquery](sql/subquery_countires_top5_customers.sql)
+
+**Descriptive statistics:**
+- [Film summary (max,min,avg,mode)](sql/summary_statistics_film_table.sql)
+- [Customer mode values](sql/mode_summary_customer_table.sql)
 
 ## Presentation
 You can view the final presentation prepared for Rockbuster Stealth stakeholders here:
 [Download presentation (PDF)](docs/rockbuster-presentation.pdf)
-
 This summary includes key insights, visualizations and strategic recommendations based on the analysis.
 
 ## Visualizations
