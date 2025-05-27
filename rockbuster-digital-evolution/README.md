@@ -11,6 +11,8 @@ The goal of this SQL-based analysis is to provide the Rockbuster Stealth managem
 4. Where are customers with a high lifetime value based?
 5. Do sales figures vary between geographic regions?
 
+_Some questions were answered using SQL queries, while others were addressed through visualizations created in Excel and Tableau, which are included in the final presentation._
+
 ## Data 
 The dataset used for this analysis contains information about Rockbuster's film inventory, customers, and payments, among other variables.
 A full data dictionary is available [here](docs/rockbuster-data-dictionary.pdf).
