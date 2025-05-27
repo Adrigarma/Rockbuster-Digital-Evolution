@@ -13,7 +13,7 @@ The goal of this SQL-based analysis is to provide the Rockbuster Stealth managem
 
 ## Data 
 The dataset used for this analysis contains information about Rockbuster's film inventory, customers, and payments, among other variables.
-A full data dictionary is available [here](docs/rockbuster-data-dictionray.pdf)
+A full data dictionary is available [here](docs/rockbuster-data-dictionary.pdf)
 It includes table structures, column descriptions, and data types for reference. 
 
 [Rockbuster ERD](docs/rockbuster-erd.jpg)
@@ -21,10 +21,15 @@ It includes table structures, column descriptions, and data types for reference.
 ## Tools
 - **PostgreSQL** for querying and data analysis
 - **Tableau** for interactive dashboards and visualizations
-- **PowerPoint** for presenting insights to stakeholders in a clear and engaging format
-
+- **PowerPoint** for presenting insights to stakeholders 
 ## Executing the code
 To replicate the analysis, connect to the Rockbuster database and run the SQL queries provided in the /sql/ folder. The queries are organized by topic and match the key questions listed above.
+
+## Presentation
+You can view the final presentation prepared for Rockbuster Stealth stakeholders here:
+[Download presentation (PDF)](docs/rockbuster-presentation.pdf)
+
+This summary includes key insights, visualizations and strategic recommendations based on the analysis.
 
 ## Visualizations
 Explore Rockbuster’s data overview in Tableau Public: [Rockbuster Dashboard](https://public.tableau.com/views/Rockbuster_17418751054630/ROCKBUSTERDATAOVERVIEW?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
